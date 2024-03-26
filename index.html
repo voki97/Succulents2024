@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeLoveSucculents</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper" id="wrapper-background-colors-manipulation">
+    <div class="main-title">
+        <h1 class="main-title-h1">Succulents</h1>
+    </div>
+    a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
+    a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
+</div>
+</body>
+<script>
+    function backgroundAnimation(){
+        window.addEventListener("scroll", () => {
+            let colorChanger = document.getElementById('wrapper-background-colors-manipulation')
+            let scroll = this.scrollY
+            let percentage = 0.0
+            let turn = 0.6
+            console.log("scroll position: "+scroll)
+            if(scroll < 100){
+                percentage = 30
+            }
+            else if(scroll > 100){
+                percentage = scroll/5
+                turn = scroll/100
+                console.log(scroll/5+"%")
+            }
+            if(scroll > 300){
+                percentage = scroll/10
+                turn = scroll/100
+                console.log(scroll/10+"%")
+            }
+            if(scroll > 700){
+                percentage = scroll/15
+                turn = scroll/100
+                console.log(scroll/15+"%")
+            }
+            colorChanger.style.background = 'linear-gradient('+
+                turn
+                +'turn, ' +
+                'rgba(248, 199, 231, 255)' +
+                percentage +
+                '%, ' +
+                'rgba(198, 221, 236, 255)' +
+                percentage +
+                '%)';
+        });
+    }
+    backgroundAnimation()
+
+</script>
+</html>
