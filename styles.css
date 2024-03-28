@@ -1,5 +1,5 @@
 body{
-    background-color: darkgreen;
+    background-color:  #11936e;
 }
 /*
     Style the wrapper:
@@ -7,32 +7,51 @@ body{
     blue and pink colors are distributed dynamically using linear gradient.
 */
 .wrapper{
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: 0 auto;
     background: linear-gradient(
-            0.6turn,
-            rgba(248, 199, 231, 255) 30%,
-            rgba(198, 221, 236, 255) 30%
+            0turn,
+            rgba(248, 199, 231, 255) 0%,
+            rgba(198, 221, 236, 255) 0%
     );
 }
 .main-title{
-    text-align: center;
     position: relative;
-    top: 1rem;
-}
-.main-title-h1{
     margin: 0;
+    font-size: 20vh;
+    text-align: center;
+    color: #11936e;
+    display: block;
+    font-family: 'Roboto', sans-serif;
 }
-/*
-.backgroundBlue{
-    width: 100%;
-    height: 50rem;
-    background: linear-gradient(
-            45deg,
-            rgba(248,199,231,255) 50%,
-            rgba(198,221,236,255) 50%
-    );
-    rotate: 180deg;
-
-
-}*/
+.heading{
+    position: relative;
+    margin: 0 auto;
+    font-size: 8vh;
+    text-align: center;
+    color: #11936e;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.textContent p{
+    background-color: rgba(113, 131, 132, 0.8);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 21px;
+    text-align: justify;
+    margin: 5% auto;
+    width: 90%;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.startLetter{
+    font-family: 'Roboto', sans-serif;
+    color: #11936e;
+    font-size: 26px;
+}
+.main-photo-container{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
