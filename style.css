@@ -1,0 +1,109 @@
+body {
+    background-color: #11936e;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+    Style the wrapper:
+    wrapper is container for the background,
+    blue and pink colors are distributed dynamically using linear gradient.
+*/
+.wrapper {
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(
+            0turn,
+            rgba(248, 199, 231, 255) 0%,
+            rgba(198, 221, 236, 255) 0%
+    );
+}
+
+.main-title {
+    position: relative;
+    font-size: 10vw;
+    text-align: center;
+    color: #11936e;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.main-photo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-photo-container img{
+    margin-left: 0;
+    width: 20vw;
+}
+
+.heading {
+    position: relative;
+    font-size: 8vw;
+    text-align: center;
+    color: #11936e;
+    font-family: 'Roboto', sans-serif;
+}
+.textContent{
+    display: flex;
+    justify-content: center;
+}
+.textContent p {
+    background-color: rgba(113, 131, 132, 0.3);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+    width: 90%;
+    padding: 2%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2vw;
+}
+
+.startLetter {
+    font-family: 'Roboto', sans-serif;
+    color: #11936e;
+    font-size: 2vw;
+}
+/*Succulents families (Aizoaceae, Cactaceae, Crassulaceae)*/
+.family-container{
+    display: flex;
+    justify-content: center;
+}
+.families {
+    width: 80vw;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.family{
+    width: 20vw;
+    border-radius: 2vw;
+}
+
+.family p {
+    text-align: center;
+    font-size: 2vw;
+    color: #11936e;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.family a{
+    color: inherit;
+    text-decoration: none;
+}
+/*On hover change the color of the link*/
+.family a:hover{
+    color: darkgreen;
+}
+
+.family img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10vw;
+    transition: transform .9s ease-in-out;
+}
+/*On hover transition*/
+.family img:hover{
+    transform: scale(70%);
+}
