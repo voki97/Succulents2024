@@ -1,4 +1,4 @@
-<p>The habitats of these water-preserving plants are often in areas with high temperatures and low
+The habitats of these water-preserving plants are often in areas with high temperatures and low
                     rainfall, such as deserts. Succulents have the ability to thrive on limited water sources, such as
                     mist and dew, which makes them equipped to survive in an ecosystem that contains scarce water
                     sources.
@@ -32,4 +32,3 @@
                     gradation from plants with thin leaves and normal<br> stems to those with very clearly thickened and
                     fleshy leaves or stems, so the<br> succulent characteristic becomes meaningless for dividing plants
                     into genera<br> and families. Different sources may classify the same species differently.
-                </p>

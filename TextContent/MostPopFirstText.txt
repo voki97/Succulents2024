@@ -1,4 +1,4 @@
-<p>&emsp;<span class="startLetter">Succulents</span> are now seen in everything from boutonnieres to
+<span class="startLetter">Succulents</span> are now seen in everything from boutonnieres to
                     hanging planters. They are a trend that is taking over not
                     just gardens, but wedding and home decor as well. Succulents are known for their low maintenance and
                     long lifespans,
@@ -8,4 +8,4 @@
                     succulents that can
                     be used as corner plants in a home office or pops of color in a lush garden. Here are some of the
                     most popular
-                    succulents for your home.</p>
+                    succulents for your home.

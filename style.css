@@ -36,7 +36,7 @@ body {
     margin-left: 0;
     width: 20vw;
 }
-
+/*Text content, heading, start "letter"  */
 .heading {
     position: relative;
     font-size: 8vw;
@@ -45,19 +45,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .textContent{
-    display: flex;
-    justify-content: center;
-}
-.textContent p {
     background-color: rgba(113, 131, 132, 0.3);
+    margin: 0 auto;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.5vw;
     text-align: justify;
-    width: 90%;
     padding: 2%;
-    background-position: center;
-    background-size: cover;
     border-radius: 2vw;
+    width: 80vw;
 }
 
 .startLetter {
@@ -67,6 +62,7 @@ body {
 }
 /*Succulents families (Aizoaceae, Cactaceae, Crassulaceae)*/
 .family-container{
+    margin: 5vw 0 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -106,4 +102,92 @@ body {
 /*On hover transition*/
 .family img:hover{
     transform: scale(70%);
+}
+/* most popular part */
+.most-popular-container{
+    margin: 5vw auto;
+    display: flex;
+    justify-content: center;
+}
+.most-popular-left-column{
+    width: 40vw;
+}
+.most-popular-right-column{
+    width: 40vw;
+}
+.most-popular-item{
+    width: 39vw;
+    margin: 2vw auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.most-popular-item-left-column{
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+}
+.most-popular-item-left-column img{
+    margin: 3vw auto;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 9vw;
+}
+.most-popular-item-right-column{
+    display: inline-block;
+    width: 20vw;
+    height: 21vw;
+    background-color: rgba(113, 131, 132, 0.3);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1vw;
+    padding: 1vw;
+    text-align: justify;
+    border-radius: 2vw;
+
+}
+/*CARE ABOUT YOUR SUCCULENTS PAGE*/
+.care-container{
+    display: flex;
+    justify-content: center;
+}
+.care-container-left-column{
+    width: 40vw;
+}
+.care-container-left-column img{
+    margin-left: 10vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10vw;
+}
+.care-container-right-column{
+    width: 40vw;
+}
+.care-container-right-column p {
+    background-color: rgba(113, 131, 132, 0.3);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1vw;
+    border-radius: 2vw;
+    padding: 1vw;
+    text-align: justify;
+}
+/*FUN FACTS PAGE*/
+.fun-facts-row{
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+}
+.fun-facts-row img{
+    width: 30vw;
+    height: 20vw;
+    margin-right: 5vw;
+    border-radius: 2vw;
+}
+.fun-facts-row p{
+    background-color: rgba(113, 131, 132, 0.3);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1vw;
+    border-radius: 2vw;
+    padding: 1vw;
+    text-align: justify;
+    margin-right: 5vw;
 }

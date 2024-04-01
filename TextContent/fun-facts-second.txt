@@ -1,0 +1,6 @@
+<span class="startLetter">Dragon fruit</span><br>
+                        A pitaya or pitahaya is the fruit of several different cactus species indigenous to the
+                        Americas. Pitaya usually refers to fruit of the genus Stenocereus, while pitahaya or dragon
+                        fruit refers to fruit of the genus Hylocereus, both in the family Cactaceae. Dragon fruit is
+                        cultivated in Southeast Asia, in the United States, the Caribbean, Australia, Mesoamerica and
+                        throughout tropical and subtropical regions of the world.

@@ -1,4 +1,4 @@
-<p>&emsp;<span class="startLetter">In botany,</span> succulents are plants with parts that are
+<span class="startLetter">In botany,</span> succulents are plants with parts that are
                 thickened, fleshy, and engorged,
                 usually to retain water in arid climates or soil conditions. It is a characteristic that
                 is not used scientifically for the definition of most families and genera of plants because
@@ -10,4 +10,4 @@
                 that excludes plants that botanists would regard as succulents, such as cacti.
                 Succulents are often grown as ornamental plants because of their striking and unusual appearance,
                 as well as their ability to thrive with relatively minimal care. Many plant families have multiple
-                succulents species found within them. In following families most species are succulents:</p>
+                succulents species found within them. In following families most species are succulents:
